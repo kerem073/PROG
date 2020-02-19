@@ -1,6 +1,7 @@
 $(function(){
-    gsap.from(".titel", {duration:3, opacity:0, ease:"ease-out"});
+    // gsap.from(".titel", {duration:3, opacity:0, ease:"ease-out"});
     rotateTitle();
+    levitate();
 });
 
 function rotateTitle(){
@@ -12,5 +13,9 @@ function rotateTitle(){
 }
 
 function levitate(){
-    
+    $(".zweven-titel").each(function(){
+        gsap.to(this, {duration:.7, x: Math.random()*20, y: Math.random()*20, ease: "linear", yoyoEase:true, repeat:-1});
+        
+    })
 }
+
