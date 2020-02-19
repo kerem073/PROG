@@ -1,0 +1,33 @@
+body{
+    background: rgb(157,240,255);
+    background: radial-gradient(circle, rgba(157,240,255,1) 0%, rgba(33,110,180,1) 100%);
+}
+
+.titel{
+    text-align: center;
+    margin-top:290px;
+}
+
+.titel *{
+    display: inline-block;
+    font-family: century-gothic, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 6rem;
+}
+
+.woord{
+    margin: 0px 40px;
+}
+
+
+
+
+@keyframes zweven{
+    0%{
+        transform:rotate(0deg);
+      }
+    100%{
+        transform:rotate(360deg);
+    }
+}
