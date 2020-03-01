@@ -19,7 +19,12 @@ body{
 .woord{
     margin: 0px 40px;
 }
-
+#groot_grasblok1{
+    position: absolute;
+    top:140%;
+    left: 15%;
+    width: 70%;
+}
 
 
 
